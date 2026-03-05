@@ -10,7 +10,7 @@ const roleBadges = [
 
 export default function Hero() {
     return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24">
             {/* Grid Overlay */}
             <div className="hero-grid-overlay" />
 

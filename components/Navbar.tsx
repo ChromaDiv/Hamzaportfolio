@@ -114,7 +114,7 @@ export default function Navbar() {
     return (
         <header className="fixed top-0 left-0 right-0 z-50 flex justify-center pointer-events-none">
             <nav
-                className={`group pointer-events-auto mt-4 px-3 py-2 flex items-center gap-2 transition-all duration-300 rounded-full border hover:shadow-[0_0_30px_rgba(59,130,246,0.12)] hover:border-blue-500/20 ${navBg} ${!scrolled ? (isDark ? "border-white/[0.08]" : "border-black/[0.06]") : ""} ${scrolled ? "px-6 py-3" : "px-3 py-2"}`}
+                className={`group pointer-events-auto mt-4 px-3 py-2 flex items-center gap-2 transition-all duration-300 border hover:shadow-[0_0_30px_rgba(59,130,246,0.12)] hover:border-blue-500/20 ${navBg} ${!scrolled ? (isDark ? "border-white/[0.08]" : "border-black/[0.06]") : ""} ${scrolled ? "px-6 py-3" : "px-3 py-2"} md:rounded-full w-[calc(100%-2rem)] md:w-auto rounded-2xl justify-between md:justify-start`}
             >
                 {/* Brand */}
                 <a
@@ -178,7 +178,7 @@ export default function Navbar() {
 
             {/* Mobile Dropdown */}
             <div
-                className={`md:hidden absolute top-full left-1/2 -translate-x-1/2 w-[calc(100%-2rem)] max-w-sm overflow-hidden transition-all duration-400 ${mobileOpen
+                className={`md:hidden pointer-events-auto absolute top-full left-1/2 -translate-x-1/2 w-[calc(100%-2rem)] max-w-sm overflow-hidden transition-all duration-400 ${mobileOpen
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 -translate-y-2 pointer-events-none"
                     }`}
