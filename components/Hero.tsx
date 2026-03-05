@@ -10,7 +10,7 @@ const roleBadges = [
 
 export default function Hero() {
     return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24">
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32 pb-12">
             {/* Grid Overlay */}
             <div className="hero-grid-overlay" />
 
@@ -66,9 +66,7 @@ export default function Hero() {
                         className="text-base text-muted leading-relaxed mb-10 mx-auto"
                         style={{ maxWidth: "600px" }}
                     >
-                        Crafting immersive digital experiences through code and canvas.
-                        I specialize in building high-performance applications that blend
-                        efficient engineering with dynamic interactivity.
+                        Crafting the future of business through code and canvas. As a Full-Stack Developer and Systems Architect, I build high-speed web applications and autonomous AI agents designed for scale. I turn complex data into frictionless digital experiences that drive measurable ROI.
                     </p>
                 </AnimatedSection>
 

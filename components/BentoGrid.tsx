@@ -38,7 +38,7 @@ const skills = [
         description:
             "Crafting precision prompts for GPT-4, Claude, and custom LLMs",
         icon: "🧠",
-        span: "col-span-1",
+        span: "col-span-1 md:col-span-2",
         accent: "cyan",
     },
     {
