@@ -27,7 +27,7 @@ export default function Footer() {
                             Whether you need an AI agent, a conversion-optimized storefront, or
                             a full-stack digital product — let&apos;s talk.
                         </p>
-                        <a href="mailto:hello@hamzariaz.com" className="glow-btn text-base px-10 py-4">
+                        <a href="mailto:say@hihamza.com" className="glow-btn text-base px-10 py-4">
                             Book a Discovery Call
                         </a>
                     </AnimatedSection>

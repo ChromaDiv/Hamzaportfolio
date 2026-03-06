@@ -75,7 +75,7 @@ export default function Hero() {
                     <a href="#projects" className="hero-btn-primary text-base px-8 py-3">
                         View My Solutions
                     </a>
-                    <a href="/resume.pdf" className="glow-btn-outline text-base px-8 py-3" download>
+                    <a href="/Hamza%20Riaz%20-%20Resume.pdf" className="glow-btn-outline text-base px-8 py-3" download>
                         Download Resume
                     </a>
                 </AnimatedSection>
