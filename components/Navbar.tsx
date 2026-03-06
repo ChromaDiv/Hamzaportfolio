@@ -58,7 +58,7 @@ function ThemeToggle() {
 function LinkedInIcon() {
     return (
         <a
-            href="https://linkedin.com/in/hamzariaz"
+            href="https://www.linkedin.com/in/hamzariaaaz"
             target="_blank"
             rel="noopener noreferrer"
             className="w-8 h-8 flex items-center justify-center rounded-full text-muted hover:text-foreground hover:bg-white/[0.06] transition-all duration-150"

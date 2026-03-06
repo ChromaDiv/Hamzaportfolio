@@ -36,7 +36,7 @@ export default function Footer() {
                     <AnimatedSection delay={0.2}>
                         <div className="flex items-center justify-center gap-8 mt-16">
                             <a
-                                href="https://linkedin.com"
+                                href="https://www.linkedin.com/in/hamzariaaaz"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-muted hover:text-cyan transition-colors text-sm"
